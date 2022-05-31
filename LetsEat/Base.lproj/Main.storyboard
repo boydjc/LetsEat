@@ -62,7 +62,7 @@
         <scene sceneID="m7F-wa-Pfo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ZQ-HA-9VZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Explore" id="rul-uJ-QM7"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="icon-explore-on" id="rul-uJ-QM7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="awv-6v-y1f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -81,7 +81,7 @@
         <scene sceneID="fhW-1P-qFE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GAW-vC-Pc6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" id="B0Q-ur-YM9"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="icon-map-on" id="B0Q-ur-YM9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="k6k-s1-Qmv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -98,6 +98,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon-explore-on" width="35" height="23"/>
+        <image name="icon-map-on" width="16" height="22"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
