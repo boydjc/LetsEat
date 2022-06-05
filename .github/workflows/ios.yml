@@ -12,7 +12,7 @@ jobs:
     runs-on: macos-latest
     strategy:
         matrix:
-          destination: ['platform=iOS Simulator,OS=any,name=any']
+          destination: ['platform=iOS Simulator,id=dvtdevice-DVTiPhonePlaceholder-iphoneos=placeholder,name=Any iOS Device']
     steps:
       - name: Checkout
         uses: actions/checkout@master
