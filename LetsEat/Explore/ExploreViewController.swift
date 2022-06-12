@@ -18,6 +18,12 @@ class ExploreViewController: UIViewController, UICollectionViewDataSource, UICol
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String,
+                        at indexPath: IndexPath) -> UICollectionReusableView {
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "header", for: indexPath)
+        return header
+    }
+    
 
     @IBOutlet var collectionView: UICollectionView!
     
